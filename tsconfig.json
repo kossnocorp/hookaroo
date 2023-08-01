@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["."],
+    "declaration": true,
+    "target": "es2019",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "lib",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "noEmit": true,
+    "tsBuildInfoFile": "./tmp/.tsbuildinfo"
+  },
+  "exclude": ["node_modules", "lib", "tmp"]
+}
